@@ -9,8 +9,9 @@ import {
 } from "@ark-ui/react";
 
 export const Input = () => {
+  const value = 5;
   return (
-    <NumberInput>
+    <NumberInput value="5">
       <NumberInputScrubber
         style={{ width: 25, height: 25, background: "red" }}
       />
